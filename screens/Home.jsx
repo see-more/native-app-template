@@ -4,9 +4,9 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 
 const Home = () => {
   return (
-    <View>
+    <SafeAreaView className="flex flex-1 items-center justify-center">
       <Text>Home</Text>
-    </View>
+    </SafeAreaView>
   )
 }
 
